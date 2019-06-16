@@ -29,7 +29,7 @@ public class UserController {
     }
 
     @PutMapping("/user")
-    public User updateUserById(@RequestBody User user){
+    public User updateUser(@RequestBody User user){
         return userDaoService.updateUser(user);
     }
 
